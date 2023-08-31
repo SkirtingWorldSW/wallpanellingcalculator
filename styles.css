@@ -1,0 +1,37 @@
+#panelling-calculator-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    border-radius: 4px;
+    background: #F6F8FA;
+    max-width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #1B56C4;
+}
+
+p, label {
+    color: #555;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: all 0.15s; /* Smooth transition */
+}
+
+#results p {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
